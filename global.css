@@ -55,7 +55,7 @@ body {
 .right {
   display: inline-block;
   box-sizing: border-box;
-  width: 59.7%;
+  width: 59%;
 }
 .right p:first-child{
     padding-top: 100px;
