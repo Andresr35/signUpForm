@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="global.css" />
+  </head>
+  <body>
+    <div class="left">
+      <div>
+        <img src="./images/odin-lined.png" alt="odin logo" />
+        <p>Odin</p>
+      </div>
+      <p>Photo by <u>Halie West</u> on <u>Unsplash</u></p>
+    </div>
+    <div class="right">
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <i>now</i> to get started.
+      </p>
+      <p>You <i>know</i> you want to.</p>
+      <form action="#">
+        <fieldset>
+          <legend>Let's do this!</legend>
+          <div>
+            <label for="firstName">First Name</label>
+            <input type="text" name="First Name" id="firstName" />
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+            <label for="password">Password</label>
+            <input type="password" name="Password" id="password" />
+          </div>
+          <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="Last Name" id="lastName" />
+            <label for="phoneNumber">Phone</label>
+            <input type="tel" name="Phone Number" id="phoneNumber" />
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              name="Confirm password"
+              id="confirmPassword"
+            />
+          </div>
+        </fieldset>
+      </form>
+      <button type="submit">Create Account</button>
+
+      <p>Already have an account? <a href="#">Log In</a></p>
+    </div>
+  </body>
+</html>
