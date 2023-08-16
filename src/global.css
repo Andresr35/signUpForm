@@ -114,3 +114,21 @@ a {
   color: var(--button);
   text-decoration: none;
 }
+#email.invalid {
+  border: 1px solid red;
+}
+#email.invalid:focus {
+  border: none;
+}
+.error {
+  display: block;
+  width: 100%;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+}
+.error.active {
+  padding: 0.3em;
+}
