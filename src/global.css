@@ -114,10 +114,10 @@ a {
   color: var(--button);
   text-decoration: none;
 }
-#email.invalid {
+.invalid {
   border: 1px solid red;
 }
-#email.invalid:focus {
+.invalid:focus {
   border: none;
 }
 .error {
